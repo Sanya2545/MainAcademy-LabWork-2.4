@@ -1,0 +1,26 @@
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe.config
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.pdb
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
+c:\users\win7\documents\visual studio 2013\Projects\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe.config
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.pdb
+C:\Users\win7\Documents\Visual Studio 2013\Projects\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.csprojResolveAssemblyReference.cache
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps_upgr\End\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps_upgr\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps_upgr\End\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps_upgr\Begin\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe.config
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps_upgr\Begin\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
+D:\naukma_2014_2015\Brainbasket\BRAINBASKET\Group_09032016\230316_7\Lab_1_2_4\HelloClassStud_bysteps_upgr\Begin\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.csproj.AssemblyReference.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.csproj.CoreCompileInputs.cache
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
