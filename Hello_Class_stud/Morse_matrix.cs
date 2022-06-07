@@ -47,13 +47,14 @@ namespace Hello_Class_stud
 
         public static Morse_matrix operator +(Morse_matrix morse_matrix1, Morse_matrix morse_matrix2)
         {
+            Morse_matrix matrix = null ;
             if (morse_matrix1.str_matrix.Length == morse_matrix2.str_matrix.Length)
             {
                 for (int i = 0; i < morse_matrix1.str_matrix.GetLength(0); ++i)
                 {
                     for (int j = 0; j < morse_matrix2.str_matrix.GetLength(1); ++j)
                     {
-                        morse_matrix1.str_matrix[i, j] += morse_matrix2.str_matrix[i, j];
+                        matrix.str_matrix[i, j] = morse_matrix1.str_matrix[i, j] + morse_matrix2.str_matrix[i, j];
                     }
                 }
             }
@@ -87,21 +88,30 @@ namespace Hello_Class_stud
         public string decrypt(string[] words = null)
         {
             string str = "";
-            for (int i = 0; i < words.Length; ++i)
+            try
             {
-                StringBuilder sb = new StringBuilder(words[i]);
-                for (int j = 0; j < words[i].Length; ++j)
+                for (int i = 0; i < words.Length; ++i)
                 {
-                    for (int k = 0; k < Size2; ++k)
+                    StringBuilder sb = new StringBuilder(words[i]);
+                    for (int j = 0; j < words[i].Length; ++j)
                     {
-                        if (words[i][j] == Convert.ToChar(this[1, j]))
+                        for (int k = 0; k < Size2; ++k)
                         {
-                            sb[i] = Convert.ToChar(this[0, j]);
+                            if (Convert.ToString(words[i]) == this[1, j])
+                            {
+                                sb[i] = Convert.ToChar(this[0, j]);
+                            }
                         }
                     }
+                    str += sb;
                 }
-                str += sb;
             }
+            catch (NullReferenceException ex)
+            {
+
+                Console.WriteLine("Array can not be null : " + ex.Message);
+            }
+            
             return str;
         }
 
@@ -109,7 +119,7 @@ namespace Hello_Class_stud
         //Implement Res_beep() method with string parameter to beep the string
         public void Res_beep(string resultOfCrypting = "")
         {
-            char[] arr = null;
+            char[] arr;
             if (!string.IsNullOrEmpty(resultOfCrypting))
             { 
                  arr = new char[resultOfCrypting.Length];
