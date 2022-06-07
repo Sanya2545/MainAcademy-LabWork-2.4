@@ -99,16 +99,20 @@ namespace Hello_Class_stud
             Morse_matrix code_tbl = new Morse_matrix(Alphabet.Dictionary_arr,b);
             code_tbl.Write_matrix();
             string []  rslt = code_tbl.crypt(word);
-            Console.WriteLine("sos : " + rslt);
-            
-            for(int i = 0; i < rslt.Length; ++i)
+
+
+            Console.Write("sos : "); 
+            for (int i = 0; i < rslt.Length; ++i)
             {
+                Console.Write(rslt[i]);
                 code_tbl.Res_beep(rslt[i]);
             }
+            Console.WriteLine();
 
             Console.WriteLine("From beep to sos");
             string[] sos = rslt;
             word = code_tbl.decrypt(sos);
+            
             Console.WriteLine("sos decrypt   :" + word);
         }
 
