@@ -5,8 +5,8 @@
     //decrypt - to decrypt array of strings
     interface IMorse_crypt
     {
-        string crypt(string word);
-        string [] decrypt(string [] words);
+        string [] crypt(string word);
+        string  decrypt(string [] words);
     }
 
 }

@@ -6,7 +6,7 @@ namespace Hello_Class_stud
     {        
    
         public const int Size1 = 2, Size2 = Alphabet.Size;
-        private string[,] str_matrix = new string[Size1, Size2];
+        protected string[,] str_matrix = new string[Size1, Size2];
 
         // indexer
         public string this[int x, int y]

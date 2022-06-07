@@ -6,22 +6,20 @@ namespace Hello_Class_stud
     //Implement class Morse_matrix derived from String_matrix, which realize IMorse_crypt
     class Morse_matrix : String_matrix, IMorse_crypt
     {
-        string[,] matrix;
         public const int Size_2 = Alphabet.Size;
         private int offset_key = 0;
 
 
         //Implement Morse_matrix constructor with the int parameter for offset
+        //Use fd(Alphabet.Dictionary_arr) and sd() methods
         public Morse_matrix(int offset = 0)
         {
             offset_key = offset;
-            fd(Alphabet.Dictionary_arr);
-            sd();
+            str_matrix = Alphabet.Dictionary_arr;
         }
-        //Use fd(Alphabet.Dictionary_arr) and sd() methods
-        public Morse_matrix(string [,] dict_arr = null, int offset = 0)
+        public Morse_matrix(string[,] dict_arr, int offset = 0)
         {
-            matrix = dict_arr;
+            str_matrix = dict_arr;
             offset_key = offset;
         }
         //Implement Morse_matrix constructor with the string [,] Dict_arr and int parameter for offset
@@ -49,13 +47,13 @@ namespace Hello_Class_stud
 
         public static Morse_matrix operator +(Morse_matrix morse_matrix1, Morse_matrix morse_matrix2)
         {
-            if(morse_matrix1.matrix.Length == morse_matrix2.matrix.Length)
+            if (morse_matrix1.str_matrix.Length == morse_matrix2.str_matrix.Length)
             {
-                for(int i = 0; i < morse_matrix1.matrix.GetLength(0); ++i)
+                for (int i = 0; i < morse_matrix1.str_matrix.GetLength(0); ++i)
                 {
-                    for(int j = 0; j < morse_matrix2.matrix.GetLength(1); ++j)
+                    for (int j = 0; j < morse_matrix2.str_matrix.GetLength(1); ++j)
                     {
-                        morse_matrix1.matrix[i, j] += morse_matrix2.matrix[i, j];
+                        morse_matrix1.str_matrix[i, j] += morse_matrix2.str_matrix[i, j];
                     }
                 }
             }
@@ -67,35 +65,72 @@ namespace Hello_Class_stud
         }
 
         //Realize crypt() with string parameter
-        public string crypt(string word = "")
+        public string[] crypt(string word = "")
         {
-            StringBuilder sb = new StringBuilder(word);
+            string[] strArr = new string[word.Length];
             for (int i = 0; i < word.Length; ++i)
             {
                 for (int j = 0; j < Size2; ++j)
                 {
-                    if (word[i] == Convert.ToChar(this[0, j]))
+                    if (word[i].ToString() == this[0, j])
                     {
-                        sb[i] = Convert.ToChar(this[1, j]);
+                        strArr[i] = this[1, j];
                     }
                 }
             }
-            word = sb.ToString();
-            return word;
+            return strArr;
         }
         //Use indexers
 
         //Realize decrypt() with string array parameter
         //Use indexers
-        public string [] decrypt(string [] words = null)
+        public string decrypt(string[] words = null)
         {
-
-            return words;
+            string str = "";
+            for (int i = 0; i < words.Length; ++i)
+            {
+                StringBuilder sb = new StringBuilder(words[i]);
+                for (int j = 0; j < words[i].Length; ++j)
+                {
+                    for (int k = 0; k < Size2; ++k)
+                    {
+                        if (words[i][j] == Convert.ToChar(this[1, j]))
+                        {
+                            sb[i] = Convert.ToChar(this[0, j]);
+                        }
+                    }
+                }
+                str += sb;
+            }
+            return str;
         }
 
 
         //Implement Res_beep() method with string parameter to beep the string
-
+        public void Res_beep(string resultOfCrypting = "")
+        {
+            char[] arr = null;
+            if (!string.IsNullOrEmpty(resultOfCrypting))
+            { 
+                 arr = new char[resultOfCrypting.Length];
+            }
+            else
+            {
+                throw new NullReferenceException();
+            }
+            for(int i = 0; i < resultOfCrypting.Length; ++i)
+            {
+                if (arr[i] == '.')
+                {
+                    Console.Beep(1, 1);
+                }
+                else if (arr[i] == '-')
+                {
+                    Console.Beep(1, 2);
+                }
+            }
+            
+        }
     }
 }
 

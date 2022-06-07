@@ -48,6 +48,7 @@ namespace Hello_Class_stud
                     catch (Exception e)
                     {
                         Console.WriteLine("Error");
+                        Console.WriteLine(e.StackTrace);
                     }
 
                     Console.ForegroundColor = ConsoleColor.Green;
@@ -69,12 +70,15 @@ namespace Hello_Class_stud
             string word = "sos";
             Morse_matrix code_tbl = new Morse_matrix();
             code_tbl.Write_matrix();
-            string rslt = code_tbl.crypt(word);
-            Console.WriteLine("sos : " + rslt);
-            code_tbl.Res_beep(rslt);
+            string [] rslt = code_tbl.crypt(word);
+            
+            for(int i = 0; i < rslt.Length; ++i)
+            {
+                Console.WriteLine("sos : " + rslt[i]);
+                code_tbl.Res_beep(rslt[i]);
+            }
 
         }
-
         static void Str_matr_decrypt()
         {
             string word;
@@ -94,12 +98,16 @@ namespace Hello_Class_stud
             int b = int.Parse(Console.ReadLine());
             Morse_matrix code_tbl = new Morse_matrix(Alphabet.Dictionary_arr,b);
             code_tbl.Write_matrix();
-            string rslt = code_tbl.crypt(word);
+            string []  rslt = code_tbl.crypt(word);
             Console.WriteLine("sos : " + rslt);
-            code_tbl.Res_beep(rslt);
+            
+            for(int i = 0; i < rslt.Length; ++i)
+            {
+                code_tbl.Res_beep(rslt[i]);
+            }
 
             Console.WriteLine("From beep to sos");
-            string[] sos = { rslt.Substring(0,5), rslt.Substring(5,5),rslt.Substring(10,5) };
+            string[] sos = rslt;
             word = code_tbl.decrypt(sos);
             Console.WriteLine("sos decrypt   :" + word);
         }

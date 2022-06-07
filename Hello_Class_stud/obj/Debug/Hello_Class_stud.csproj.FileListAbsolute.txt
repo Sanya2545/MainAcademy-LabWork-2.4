@@ -24,3 +24,6 @@ D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hel
 D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.csproj.CoreCompileInputs.cache
 D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.exe
 D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\obj\Debug\Hello_Class_stud.pdb
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe.config
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.exe
+D:\MainAcademy\C# .NET\LabWorks\Module_2\LabWork#2.4\(begin)Hello_Class_stud\Hello_Class_stud\Hello_Class_stud\bin\Debug\Hello_Class_stud.pdb
